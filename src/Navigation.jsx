@@ -30,7 +30,7 @@ class Navigasi extends React.Component
     render()
     {
         return(
-            <Navbar className="sticky-top navbar-dark bg-success" expand="md">
+            <Navbar className="sticky-top navbar-dark bg-success mb-2" expand="md">
                 <NavbarBrand href="/">React Web</NavbarBrand>
                 <NavbarToggler onClick={this.toggleNavbar}/>
                 <Collapse isOpen={this.state.collapsedNavbar} navbar>
