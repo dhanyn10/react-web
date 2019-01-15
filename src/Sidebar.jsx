@@ -1,5 +1,11 @@
 import React from 'react';
-import { Col } from 'reactstrap';
+import
+{
+    Col,
+    Card,
+    ListGroup,
+    ListGroupItem
+} from 'reactstrap';
 
 class Sidebar extends React.Component
 {
@@ -7,7 +13,13 @@ class Sidebar extends React.Component
     {
         return(
             <Col md="3">
-                Sidebar
+                <Card>
+                    <ListGroup>
+                        <ListGroupItem>Dashboard</ListGroupItem>
+                        <ListGroupItem>Member</ListGroupItem>
+                        <ListGroupItem>Account</ListGroupItem>
+                    </ListGroup>
+                </Card>
             </Col>
         );
     }
