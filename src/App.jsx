@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import {
-    BrowserRouter,
-    Route,
-    Switch
+    BrowserRouter
 } from 'react-router-dom';
 import
 {
@@ -11,7 +9,7 @@ import
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation.jsx';
 import Sidebar from './Sidebar.jsx';
-import Home from './Home.jsx';
+import Content from './Content.jsx';
 
 class App extends Component
 {
@@ -24,9 +22,7 @@ class App extends Component
                     <div className="container-fluid">
                         <Row>
                             <Sidebar/>
-                            <Switch>
-                                <Route exact path="/" component={Home}/>
-                            </Switch>
+                            <Content/>
                         </Row>
                     </div>
                 </div>
