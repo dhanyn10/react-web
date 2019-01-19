@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
     "jquery": "^3.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -39,10 +40,9 @@
   },
   "homepage": "https://github.com/dhanyn10/react-web#readme",
   "browserslist": [
-    ">0.5%",
-    "last 2 versions",
-    "Firefox ESR",
+    ">0.2%",
     "not dead",
+    "not ie <= 11",
     "not op_mini all"
   ]
 }
